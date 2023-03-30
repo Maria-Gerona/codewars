@@ -61,6 +61,18 @@ build CMakeFiles/codewars.dir/YouCantCodeUnderPressureNumberOne.cpp.obj: CXX_COM
   OBJECT_DIR = CMakeFiles\codewars.dir
   OBJECT_FILE_DIR = CMakeFiles\codewars.dir
 
+build CMakeFiles/codewars.dir/counting_sheep.cpp.obj: CXX_COMPILER__codewars_Debug C$:/Users/Maria$ Reina$ GM/CLionProjects/codewars/counting_sheep.cpp || cmake_object_order_depends_target_codewars
+  DEP_FILE = CMakeFiles\codewars.dir\counting_sheep.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\codewars.dir
+  OBJECT_FILE_DIR = CMakeFiles\codewars.dir
+
+build CMakeFiles/codewars.dir/opposites_attract.cpp.obj: CXX_COMPILER__codewars_Debug C$:/Users/Maria$ Reina$ GM/CLionProjects/codewars/opposites_attract.cpp || cmake_object_order_depends_target_codewars
+  DEP_FILE = CMakeFiles\codewars.dir\opposites_attract.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\codewars.dir
+  OBJECT_FILE_DIR = CMakeFiles\codewars.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target codewars
@@ -69,7 +81,7 @@ build CMakeFiles/codewars.dir/YouCantCodeUnderPressureNumberOne.cpp.obj: CXX_COM
 #############################################
 # Link the executable codewars.exe
 
-build codewars.exe: CXX_EXECUTABLE_LINKER__codewars_Debug CMakeFiles/codewars.dir/main.cpp.obj CMakeFiles/codewars.dir/YouCantCodeUnderPressureNumberOne.cpp.obj
+build codewars.exe: CXX_EXECUTABLE_LINKER__codewars_Debug CMakeFiles/codewars.dir/main.cpp.obj CMakeFiles/codewars.dir/YouCantCodeUnderPressureNumberOne.cpp.obj CMakeFiles/codewars.dir/counting_sheep.cpp.obj CMakeFiles/codewars.dir/opposites_attract.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\codewars.dir
